@@ -110,4 +110,47 @@ main .jumbotron .jumbo-content .jumbo-img{
   width: 60%; /*da togliere?*/
 }
 
+/*info section*/
+main .info .options{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
 
+main .info .options .cards{
+  width: calc(100% / 3 - 30px);
+  margin-bottom: 10px;
+  /*da togliere*/
+  min-width: 250px;
+  height: 500px;
+  background-color: blue;
+}
+
+main .info .team-card{
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+main .info #team{
+  height: 200px;
+  width: 100%;
+  background-color: blue;
+}
+
+/*cta*/
+main .info .cta{
+  display: flex;
+  margin-top: 30px;
+}
+
+main .info .cta .cta-img{
+  height: 300px; /*da togliere*/
+  width: 60%;
+}
+
+main .info .cta .cta-text{
+  height: 300px; /*da togliere*/
+  width: 40%;
+}
