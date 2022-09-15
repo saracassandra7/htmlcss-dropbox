@@ -83,7 +83,7 @@ main{
 
 /*jumbotron*/
 main .jumbotron{
-  height: 550px; /*da rivedere*/
+  height: 600px; /*da rivedere*/
   background-color: #b4d0e7;
   display: flex;
   justify-content: center;
@@ -100,17 +100,45 @@ main .jumbotron .container{
 
 main .jumbotron .jumbo-content{
   display: flex;
+  margin-top: 30px;
 }
 
 main .jumbotron .jumbo-content .jumbo-text{
-  width: 40%; /*da togliere?*/
+  width: 35%;
 }
 
 main .jumbotron .jumbo-content .jumbo-img{
-  width: 60%; /*da togliere?*/
+  width: 60%;
+}
+
+main .jumbotron .jumbo-content img{
+  width: 730px;
+  height: 400px;
+}
+
+main .jumbotron h1{
+  font-size: 65px;
+}
+
+main .jumbotron .jumbo-content .btn{
+  margin: 20px 0;
+  font-size: 15px;
+}
+
+main .jumbotron .jumbo-content .arrow{
+  font-size: 40px;
+  margin-top: 35px;
+}
+
+main .jumbotron .jumbo-content .arrow a{
+  color: black;
 }
 
 /*info section*/
+main .info{
+  margin-top: 150px;
+}
+
 main .info .options{
   display: flex;
   justify-content: space-between;
