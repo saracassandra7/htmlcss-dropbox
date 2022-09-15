@@ -219,3 +219,30 @@ main .questions .box-domanda{
 main .questions .box-domanda#last{
   border-bottom: 2px solid #b8b8b8;
 }
+
+/*footer*/
+footer{
+  height: 500px;
+  background-color: black;
+  display: flex;
+}
+
+footer .box-menu{
+  width: 200px;
+}
+
+footer h3{
+  padding-left: 10px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+
+footer .menu-footer ul{
+  display: flex;
+  flex-direction: column;
+}
+
+footer .menu-footer ul li a{
+  color: white;
+}
