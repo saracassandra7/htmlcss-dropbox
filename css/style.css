@@ -175,3 +175,47 @@ main .card-section .row .small-card{
   height: 300px;
   background-color: lime;
 }
+
+
+/*sezione partners*/
+main .partners{
+  display: flex;
+}
+
+main .partners .box{
+  background-color: gold;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main .partners .box .small-box{
+  width: calc(100% / 2);
+}
+
+main .prova{
+  background-color: #b4d0e7;
+  height: 250px;
+}
+
+main .prova .container{
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+/*sezione questions*/
+
+main .questions .box-domanda{
+  border-top: 2px solid #b8b8b8;
+  padding: 20px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+main .questions .box-domanda#last{
+  border-bottom: 2px solid #b8b8b8;
+}
