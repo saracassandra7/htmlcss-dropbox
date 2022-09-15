@@ -3,3 +3,111 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+.container{
+  width:80%;
+  max-width: 1900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.debug{
+  background-color: rgba(255, 0, 0, .25);
+  border: 1px solid black;
+}
+
+/*istruzioni generiche per i menu*/
+nav ul{
+  list-style: none;
+  display: flex;
+}
+
+nav ul li{
+  padding: 10px;
+}
+
+nav ul li a{
+  text-decoration: none;
+}
+
+.btn{
+  display: inline-block;
+  background-color: #0061ff;
+  color: white;
+  padding: 8px 15px;
+  font-size: .8rem;
+  text-decoration: none;
+}
+
+/*header*/
+header{
+  height: 80px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 20px;
+}
+
+.header-left, .header-right{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo{
+  width: 50px;
+  height: 50px;
+}  
+  
+
+/*menu nell'header*/
+header nav ul li a{
+  color: black;
+  font-size: 0.9rem;
+}
+
+/*main*/
+
+main{
+  margin-top: 70px;
+}
+
+/*jumbotron*/
+main .jumbotron{
+  height: 550px; /*da rivedere*/
+  background-color: #b4d0e7;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+main .jumbotron .container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px; /*da togliere*/
+}
+
+main .jumbotron .jumbo-content{
+  display: flex;
+}
+
+main .jumbotron .jumbo-content .jumbo-text{
+  width: 40%; /*da togliere?*/
+}
+
+main .jumbotron .jumbo-content .jumbo-img{
+  width: 60%; /*da togliere?*/
+}
+
+
