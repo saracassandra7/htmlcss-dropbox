@@ -318,13 +318,55 @@ main .partners{
 main .partners .box{
   background-color: gold;
   width: 100%;
-  height: 400px;
+  height: 400px; /*da togliere*/
   display: flex;
   flex-wrap: wrap;
 }
 
 main .partners .box .small-box{
   width: calc(100% / 2);
+  height: calc(100% /2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .partners .box .small-box img{
+  width: 50%;
+  
+}
+
+.box .uno{
+  background-color: #A2D39B;
+  border: 15px solid #D1E9CD;
+}
+
+.box .due{
+  background-color: #61082B;
+}
+
+.box .tre{
+  background-color: #0093CE;
+}
+
+.box .quattro{
+  background-color: #FF1C1C;
+}
+
+.box .cinque{
+  background-color: #D5001F;
+}
+
+.box .sei{
+  background-color: #B4D0E7;
+}
+
+.box .sette{
+  background-color: #0D2481;
+}
+
+.box .otto{
+  background-color: #FFD830;
 }
 
 main .prova{
@@ -361,7 +403,12 @@ footer{
 }
 
 footer .box-menu{
-  width: 200px;
+  display: flex;
+}
+
+footer .box-menu .menu-footer{
+  width: calc(100% / 5);
+
 }
 
 footer h3{
