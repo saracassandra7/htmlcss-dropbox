@@ -278,12 +278,37 @@ main .card-section .row{
 main .card-section .row .small-card{
   width: calc(100% / 3 - 20px);
   margin-bottom: 20px;
-  /*da togliere*/
-  min-width: 300px;
-  height: 300px;
-  background-color: lime;
 }
 
+main .card-section .row .small-card .small-img img{
+  max-width: 100%;
+}
+
+main .card-section h2{
+  margin-bottom: 10px;
+  margin-top: 30px;
+  font-size: 30px;
+}
+
+main .card-section .row .small-card .small-text h3{
+  margin: 20px 0;
+  font-size: 20px;
+}
+
+main .card-section .numeri {
+  width: 50%;
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+
+main .card-section .numeri h2{
+  line-height: 150%;
+  font-size: 30px;
+}
+
+main .card-section .numeri a{
+  margin: 40px 0;
+}
 
 /*sezione partners*/
 main .partners{
