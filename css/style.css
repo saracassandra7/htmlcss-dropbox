@@ -312,17 +312,13 @@ main .card-section .row .small-card .small-text h3{
 
 main .card-section .numeri {
   width: 50%;
-  margin-top: 100px;
-  margin-bottom: 40px;
+  padding: 70px 0;
 }
 
 main .card-section .numeri h2{
   line-height: 150%;
-  font-size: 30px;
-}
-
-main .card-section .numeri a{
-  margin: 40px 0;
+  font-size: 32px;
+  padding-bottom: 35px;
 }
 
 /*sezione partners*/
@@ -331,16 +327,31 @@ main .partners{
 }
 
 main .partners .box{
-  background-color: gold;
   width: 100%;
-  height: 400px; /*da togliere*/
   display: flex;
   flex-wrap: wrap;
+}
+
+main .partners #big-box{
+  background-color: #F5F5F5;
+  padding: 35px;
+  overflow: auto;
+  font-size: 0.85rem;
+}
+main .partners #big-box .center-logo img{
+  width: 50%;
+}
+
+main .partners #big-box .center-logo{
+  margin-bottom: 20px;
+  border-bottom: 1px solid lightgray;
 }
 
 main .partners .box .small-box{
   width: calc(100% / 2);
   height: calc(100% /2);
+  min-width: 200px;
+  min-height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -348,7 +359,6 @@ main .partners .box .small-box{
 
 main .partners .box .small-box img{
   width: 50%;
-  
 }
 
 .box .uno{
@@ -384,30 +394,52 @@ main .partners .box .small-box img{
   background-color: #FFD830;
 }
 
+
+/*section prova*/
 main .prova{
   background-color: #b4d0e7;
-  height: 250px;
+  height: 250px; /*da togliere?*/
 }
 
-main .prova .container{
+main .prova .container-small{
   height: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
 
+main .prova .container-small h2{
+  font-size: 25px;
+  color: #61082B;
+}
+
+main .prova .container-small .button #prova-btn{
+  color: black;
+  background-color: white;
+  padding: 10px 30px;
 }
 
 /*sezione questions*/
+main .questions{
+  padding: 100px 0;
+}
+
+main .questions h2{
+  font-size: 1.8rem;
+  padding-bottom: 50px;
+  border-bottom: 2px solid #b8b8b8;
+}
 
 main .questions .box-domanda{
-  border-top: 2px solid #b8b8b8;
-  padding: 20px 10px;
+  border-bottom: 2px solid #b8b8b8;
+  padding: 30px 10px;
   display: flex;
   justify-content: space-between;
 }
 
-main .questions .box-domanda#last{
-  border-bottom: 2px solid #b8b8b8;
+main .questions .box-domanda p{
+  font-weight: bold;
+  font-size: 0.9rem;
 }
 
 /*footer*/
