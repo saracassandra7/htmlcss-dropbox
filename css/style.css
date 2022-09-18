@@ -41,6 +41,7 @@ nav ul li a{
   text-decoration: none;
 }
 
+/*istruzioni generiche per i bottoni*/
 .btn{
   display: inline-block;
   background-color: #0061ff;
@@ -48,6 +49,10 @@ nav ul li a{
   padding: 8px 20px;
   font-size: .8rem;
   text-decoration: none;
+}
+
+.btn:hover{
+  background-color: #0c88fe;
 }
 
 /*header*/
@@ -176,6 +181,10 @@ main .info-top h2{
 
 main .info-top #selected{
   padding-right: 30px;
+}
+
+main .info-top #selected i{
+  color: #0061ff;
 }
 
 main .info .options{
@@ -444,7 +453,7 @@ main .questions .box-domanda p{
 
 /*footer*/
 footer{
-  height: 500px;
+  
   background-color: black;
   display: flex;
 }
@@ -473,3 +482,20 @@ footer .menu-footer ul{
 footer .menu-footer ul li a{
   color: white;
 }
+
+/*footer bottom*/
+.footer-bottom{
+  color: #999999;
+  font-size: 0.9rem;
+  margin-bottom: 30px;
+}
+
+.hr-footer{
+  width: 120px;
+  border: 1px solid #D0D0D3;
+  margin: 120px 0 50px;
+}
+
+.footer-bottom span{
+  margin: 0 5px;
+}  
