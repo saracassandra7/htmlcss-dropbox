@@ -1,3 +1,4 @@
+/*generali*/
 *{
   margin: 0;
   padding: 0;
@@ -22,6 +23,7 @@ body{
   padding: 20px;
 }
 
+/*utility*/
 .debug{
   background-color: rgba(255, 0, 0, .25);
   border: 1px solid black;
@@ -116,7 +118,7 @@ main{
 
 /*jumbotron*/
 main .jumbotron{
-  height: 600px; /*da rivedere*/
+  height: 600px;
   background-color: #b4d0e7;
   display: flex;
   justify-content: center;
@@ -194,7 +196,7 @@ main .info .options{
   margin-top: 30px;
 }
 
-/*options cards*/
+/*sezione opzioni di abbonamento*/
 main ul{
   list-style: none;
 }
@@ -261,7 +263,7 @@ main .info .options .plan-container .fa-check{
   font-weight: bold
 }
 
-/*cta*/
+/*sezione cta*/
 main .info .cta{
   display: flex;
   justify-content: space-between;
@@ -297,7 +299,7 @@ main .info .cta .cta-text .btn{
   border: 1px solid gray;
 }
 
-/*seconda sezione*/
+/*sezione cards*/
 main .card-section{
   margin: 30px 0;
 }
@@ -422,7 +424,7 @@ main .partners .box .active{
 /*section prova*/
 main .prova{
   background-color: #b4d0e7;
-  height: 250px; /*da togliere?*/
+  height: 20vw;
 }
 
 main .prova .container-small{
@@ -502,6 +504,7 @@ footer{
   justify-content: space-between;
 }
 
+/*menu footer*/
 footer .box-menu{
   width: calc(100% / 5.1);
   margin-top: 30px;
