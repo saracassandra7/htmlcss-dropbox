@@ -220,6 +220,10 @@ main .info .team-card .team-flex{
   display: flex;
 }
 
+main .info .team-card .team-flex .plan-container p{
+  margin-bottom: 20px;
+}
+
 main .info .team-card .team-flex .button{
   margin-top: 25px;
   width: 40%;
@@ -335,8 +339,9 @@ main .partners{
   display: flex;
 }
 
-main .partners .box{
-  width: 100%;
+main .partners .box, #big-box{
+  width: calc(100vw / 2);
+  height: calc(100vw / 2);
   display: flex;
   flex-wrap: wrap;
 }
@@ -347,6 +352,7 @@ main .partners #big-box{
   overflow: auto;
   font-size: 0.85rem;
 }
+
 main .partners #big-box .center-logo img{
   width: 50%;
 }
@@ -358,8 +364,7 @@ main .partners #big-box .center-logo{
 
 main .partners .box .small-box{
   width: calc(100% / 2);
-  height: calc(100% /2);
-  min-height: 200px;
+  height: calc(100% / 3);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -367,6 +372,7 @@ main .partners .box .small-box{
 
 main .partners .box .small-box img{
   width: 50%;
+  filter: invert(1);
 }
 
 main .partners .box .active{
@@ -444,12 +450,40 @@ main .questions h2{
 main .questions .box-domanda{
   border-bottom: 2px solid #b8b8b8;
   padding: 30px 10px;
-  display: flex;
-  justify-content: space-between;
+  position: relative;
 }
 
-main .questions .box-domanda p{
+main .questions .box-domanda .domanda{
+  position: absolute;
+  top: 20px;
+  left: 0;
+  cursor: pointer;
+}
+
+main .questions .box-domanda .risposta{
+  position: absolute;
+  top: 30px;
+  left: 0;
+  display: none;
+}
+
+
+main .questions .box-domanda .domanda:hover ~ .risposta{
+  display: block;
+}
+
+main .questions .box-domanda i{
+  position: absolute;
+  top: 20 px;
+  right: 0;
+}
+
+main .questions .box-domanda .domanda p{
   font-weight: bold;
+  font-size: 0.9rem;
+}
+
+main .questions .box-domanda .risposta p{
   font-size: 0.9rem;
 }
 
