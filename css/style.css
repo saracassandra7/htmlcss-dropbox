@@ -359,7 +359,6 @@ main .partners #big-box .center-logo{
 main .partners .box .small-box{
   width: calc(100% / 2);
   height: calc(100% /2);
-  min-width: 200px;
   min-height: 200px;
   display: flex;
   justify-content: center;
@@ -370,9 +369,12 @@ main .partners .box .small-box img{
   width: 50%;
 }
 
+main .partners .box .active{
+  border: 10px solid #D1E9CD;
+}
+
 .box .uno{
   background-color: #A2D39B;
-  border: 15px solid #D1E9CD;
 }
 
 .box .due{
@@ -453,19 +455,17 @@ main .questions .box-domanda p{
 
 /*footer*/
 footer{
-  
   background-color: black;
   display: flex;
+  justify-content: space-between;
 }
 
 footer .box-menu{
-  display: flex;
+  width: calc(100% / 5.1);
+  margin-top: 30px;
+  display: inline-block;
 }
 
-footer .box-menu .menu-footer{
-  width: calc(100% / 5);
-
-}
 
 footer h3{
   padding-left: 10px;
@@ -481,6 +481,7 @@ footer .menu-footer ul{
 
 footer .menu-footer ul li a{
   color: white;
+  font-size: 0.8rem;
 }
 
 /*footer bottom*/
@@ -493,7 +494,7 @@ footer .menu-footer ul li a{
 .hr-footer{
   width: 120px;
   border: 1px solid #D0D0D3;
-  margin: 120px 0 50px;
+  margin: 70px 0 50px;
 }
 
 .footer-bottom span{
