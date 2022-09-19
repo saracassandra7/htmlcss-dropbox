@@ -255,6 +255,12 @@ main .info .options .plan-container .acquista{
 main .info .options .plan-container h4{
   margin: 20px 0;
 }
+
+main .info .options .plan-container .fa-check{
+  color: #0061ff;
+  font-weight: bold
+}
+
 /*cta*/
 main .info .cta{
   display: flex;
@@ -341,7 +347,6 @@ main .partners{
 
 main .partners .box, #big-box{
   width: calc(100vw / 2);
-  height: calc(100vw / 2);
   display: flex;
   flex-wrap: wrap;
 }
@@ -351,6 +356,8 @@ main .partners #big-box{
   padding: 35px;
   overflow: auto;
   font-size: 0.85rem;
+  height: 30vw;
+
 }
 
 main .partners #big-box .center-logo img{
@@ -364,7 +371,7 @@ main .partners #big-box .center-logo{
 
 main .partners .box .small-box{
   width: calc(100% / 2);
-  height: calc(100% / 3);
+  height: 15vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -449,7 +456,7 @@ main .questions h2{
 
 main .questions .box-domanda{
   border-bottom: 2px solid #b8b8b8;
-  padding: 30px 10px;
+  padding: 40px 10px;
   position: relative;
 }
 
@@ -458,6 +465,12 @@ main .questions .box-domanda .domanda{
   top: 20px;
   left: 0;
   cursor: pointer;
+}
+
+main .questions .box-domanda i{
+  position: absolute;
+  top: 20px;
+  right: 0;
 }
 
 main .questions .box-domanda .risposta{
@@ -470,12 +483,7 @@ main .questions .box-domanda .risposta{
 
 main .questions .box-domanda .domanda:hover ~ .risposta{
   display: block;
-}
-
-main .questions .box-domanda i{
-  position: absolute;
-  top: 20 px;
-  right: 0;
+  padding-top: 10px;
 }
 
 main .questions .box-domanda .domanda p{
