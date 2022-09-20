@@ -348,7 +348,7 @@ main .partners{
 }
 
 main .partners .box, #big-box{
-  width: calc(100vw / 2);
+  width: calc(100vw / 3);
   display: flex;
   flex-wrap: wrap;
 }
@@ -359,7 +359,6 @@ main .partners #big-box{
   overflow: auto;
   font-size: 0.85rem;
   height: 30vw;
-
 }
 
 main .partners #big-box .center-logo img{
@@ -384,8 +383,8 @@ main .partners .box .small-box img{
   filter: invert(1);
 }
 
-main .partners .box .active{
-  border: 10px solid #D1E9CD;
+main .partners .box .small-box:active{
+  border: 10px solid rgba(255, 255, 255, 0.3);
 }
 
 .box .uno{
